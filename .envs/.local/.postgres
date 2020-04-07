@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=heroku_test
+POSTGRES_USER=TGKmgSTOwuHDOPkHEfGRRpOyDKpVNhav
+POSTGRES_PASSWORD=o2lrTvoMFzbLutBV0gSdwwo3eWm9CCG2hLX9oWWIAGtNITyCXwwLGnYntpK7ihU3
