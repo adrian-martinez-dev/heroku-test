@@ -78,7 +78,7 @@ AWS_DEFAULT_ACL = None
 AWS_S3_REGION_NAME = env("DJANGO_AWS_S3_REGION_NAME", default=None)
 # STATIC
 # ------------------------
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "heroku_test.config.storage.WhiteNoiseStaticFilesStorage"
 # MEDIA
 # ------------------------------------------------------------------------------
 DEFAULT_FILE_STORAGE = "heroku_test.utils.storages.MediaRootS3Boto3Storage"
